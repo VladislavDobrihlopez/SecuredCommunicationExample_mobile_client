@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SecuredCommunicationExample</string>
+    <string name="fetch_data">Fetch data</string>
+    <string name="being_fetched">Data is being fetched…</string>
+    <string name="perform_new_fetching">Perform a new request</string>
+    <string name="try_to_fetch_again">Try to fetch again</string>
 </resources>

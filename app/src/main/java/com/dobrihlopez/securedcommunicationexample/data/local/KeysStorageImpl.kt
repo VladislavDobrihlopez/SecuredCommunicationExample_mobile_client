@@ -8,8 +8,9 @@ import com.dobrihlopez.securedcommunicationexample.domain.KeysStorage
 import com.dobrihlopez.securedcommunicationexample.domain.PrivateKey
 import com.dobrihlopez.securedcommunicationexample.domain.PublicKey
 import dagger.hilt.android.qualifiers.ApplicationContext
+import javax.inject.Inject
 
-class KeysStorageImpl(
+class KeysStorageImpl @Inject constructor(
     @ApplicationContext val context: Context
 ) : KeysStorage {
     private val preferences = kotlin.run {

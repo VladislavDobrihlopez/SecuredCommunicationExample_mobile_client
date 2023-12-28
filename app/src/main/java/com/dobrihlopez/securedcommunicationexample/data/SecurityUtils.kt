@@ -9,7 +9,7 @@ import java.security.KeyStore.PrivateKeyEntry
 import java.util.Base64
 import javax.crypto.Cipher
 
-object KeyPairManager {
+object KeysPairManager {
     private const val NAME = "AndroidKeyStore"
     private const val KEY_ALIAS = "keys"
     private const val TRANSFORMATION = "RSA/ECB/PKCS1Padding"

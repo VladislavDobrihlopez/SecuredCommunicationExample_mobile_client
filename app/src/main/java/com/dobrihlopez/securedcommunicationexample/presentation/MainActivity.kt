@@ -8,6 +8,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.dobrihlopez.securedcommunicationexample.data.network.ApiService
+import com.dobrihlopez.securedcommunicationexample.presentation.mainScreen.MainScreen
 import com.dobrihlopez.securedcommunicationexample.ui.theme.SecuredCommunicationExampleTheme
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -25,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-
+                    MainScreen()
                 }
             }
         }
