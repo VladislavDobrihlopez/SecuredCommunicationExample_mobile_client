@@ -7,10 +7,10 @@ import retrofit2.http.POST
 
 interface ApiService {
     @Headers("Content-Type: application/json")
-    @POST("data/data-example")
-    fun getData(@Body publicKey: String): Response<String>
+    @POST("/api/data")
+    suspend fun getData(@Body publicKey: String): Response<String>
 
     companion object {
-        const val BASE_URL = "http://10.0.0.1:8080"
+        const val BASE_URL = "http://localhost"
     }
 }

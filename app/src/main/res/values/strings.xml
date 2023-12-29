@@ -4,4 +4,8 @@
     <string name="being_fetched">Data is being fetched…</string>
     <string name="perform_new_fetching">Perform a new request</string>
     <string name="try_to_fetch_again">Try to fetch again</string>
+    <string name="error_image">error image</string>
+    <string name="welcome_message">Hello. This is an example of interacting with the Ktor server easy and in secure manner</string>
+    <string name="data_has_been_successfully_fetched">Data has been successfully fetched</string>
+    <string name="public_key_private_key">Public key: %1$s. Private key: %2$s</string>
 </resources>

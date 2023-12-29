@@ -1,7 +1,7 @@
 package com.dobrihlopez.securedcommunicationexample.presentation.mainScreen
 
 import com.dobrihlopez.securedcommunicationexample.R
-import com.dobrihlopez.securedcommunicationexample.domain.KeysModel
+import com.dobrihlopez.securedcommunicationexample.domain.KeysBunch
 
 //sealed interface ScreenState<out V> {
 //    class Idle(val errorInfo: String) : ScreenState<Nothing>
@@ -12,7 +12,7 @@ import com.dobrihlopez.securedcommunicationexample.domain.KeysModel
 sealed interface ScreenState {
     data object Idle : ScreenState
     data object Loading : ScreenState
-    data class Success(val data: KeysModel) : ScreenState
+    data class Success(val data: KeysBunch) : ScreenState
     data class Error(val errorInfo: String): ScreenState
 }
 
